@@ -4,9 +4,8 @@
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules && npm cache clean --force",
     "postinstall": "ng build --aot --prod",
-    "start": "node app.js",
-    "ng": "ng",
     "start": "ng serve",
+    "ng": "ng",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -32,9 +31,11 @@
     "@angular/pwa": "^0.8.3",
     "@angular/router": "^6.1.0",
     "@angular/service-worker": "^6.1.0",
-    "typescript": "~2.7.2",
     "core-js": "^2.5.4",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
     "rxjs": "~6.2.0",
+    "typescript": "~2.7.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
