@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  currencyURL: 'http://www.json-generator.com/api/json/get/bVviQgqKiG?indent=2',
+  transactionURL: 'http://www.json-generator.com/api/json/get/bTzgmQbyqa?indent=2'
 };
 
 /*
