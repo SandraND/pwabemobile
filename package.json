@@ -4,7 +4,7 @@
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules && npm cache clean --force",
     "postinstall": "ng build --aot --prod",
-    "start": "node ./bin/www",
+    "start": "node app.js",
     "ng": "ng",
     "build": "ng build",
     "test": "ng test",
@@ -17,6 +17,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "~6.2.3",
     "@angular/animations": "^6.1.0",
     "@angular/cdk": "^6.2.0",
     "@angular/common": "^6.1.0",
