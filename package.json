@@ -4,7 +4,7 @@
   "scripts": {
     "heroku-prebuild": "rm -rf node_modules && npm cache clean --force",
     "postinstall": "ng build --aot --prod",
-    "start": "npm run start",
+    "start": "node ./bin/www",
     "ng": "ng",
     "build": "ng build",
     "test": "ng test",
